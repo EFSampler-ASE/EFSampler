@@ -1,0 +1,9 @@
+AR = ar
+
+.PHONY: meson
+
+libbitwuzla.a: meson
+	$(AR) -M <libbitwuzla.mri
+
+meson:
+	meson compile

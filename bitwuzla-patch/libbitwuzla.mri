@@ -1,0 +1,8 @@
+create libbitwuzla.a
+addlib src/lib/libbitwuzlabb.a
+addlib src/lib/libbitwuzlabv.a
+addlib src/lib/libbitwuzlals.a
+addlib src/libbitwuzla.a
+addlib subprojects/cadical-rel-2.1.0/src/libcadical.a
+save
+end
